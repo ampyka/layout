@@ -1,4 +1,5 @@
 var pretext = 'Hello';
 var text = 'World';
-console.log(`${pretext} ${text}`);
+let sentence = pretext + " " + text;
+console.log(`${sentence}`);
 // "Hello World"
