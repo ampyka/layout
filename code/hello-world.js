@@ -1,3 +1,4 @@
+var pretext = 'Hello';
 var text = 'World';
-console.log(`Hello ${text}`);
+console.log(`${pretext} ${text}`);
 // "Hello World"
