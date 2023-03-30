@@ -2,7 +2,7 @@ workflows:
   - name: automating-safe-approvals-for-low-risk-changes
     if:
       - rule: '!$isDraft()
-             && $hasCodeWithoutSemanticChanges()
-             && !$hasFilePattern("src/package.json")'
+            && $hasCodeWithoutSemanticChanges()
+            && !$hasFilePattern("src/package.json")'
     then:
       - '$approve("LGTM: this PR contains only low-risk code changes")'
