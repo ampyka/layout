@@ -1,3 +1,5 @@
-var name = 'World';
-console.log(`Hello ${name}`);
+var first = 'Hello';
+var second = 'World';
+var sentence = first + " " + second;
+console.log(sentence);
 // "Hello World"
