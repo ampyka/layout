@@ -1,3 +1,3 @@
-var name = 'World';
-console.log(`Hello ${name}`);
+var text = 'World';
+console.log(`Hello ${text}`);
 // "Hello World"
